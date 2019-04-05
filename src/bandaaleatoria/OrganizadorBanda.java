@@ -20,32 +20,31 @@ public class OrganizadorBanda {
       
    
    
-   int numIntegrantes=  (int) (Math.random()*20)+1;
+   int numIntegrantes=  (int) (Math.random()*20);
    
    
    
    public String[] Organizador(){
        m=musico.LlenarMusico();
        String[] bandaCompleta= new String[numIntegrantes];
-       i=ins.LlenarInstrumento();
+
        
-       for (int j = 0; j <= numIntegrantes; j++) {
-           bandaCompleta[j]=m[j];
-                   
-                          
+       for (int i = 0; i < numIntegrantes; i++) {
+           bandaCompleta[i]= m[i];       
+           //System.out.println(bandaCompleta[i]);              
        }
-    return bandaCompleta;
+       return bandaCompleta;
    }
    
    public String[] OrganizadorInstrumentos(){
         String[] asignar= new String[numIntegrantes]; 
         i=ins.LlenarInstrumento();
         
-        for (int j = 0; j <= numIntegrantes; j++) {
+        for (int j = 0; j < numIntegrantes; j++) {
           
-           int aleatorioInstrumento = (int) (Math.random()*4)+1;
+           int aleatorioInstrumento = (int) (Math.random()*3)+1;
            asignar[j]= i[aleatorioInstrumento];
-           
+           //System.out.println(asignar[j]);
                           
        }
        return asignar;
@@ -53,34 +52,33 @@ public class OrganizadorBanda {
        
        
    }
-   public void  ArmarBanda(){
-       String[] banda=new String[numIntegrantes]; 
-       String[] instru=new String[numIntegrantes];
+   public void  GestionarBanda(){
+       String[] banda=new String[Organizador().length]; 
+       String[] instru=new String[OrganizadorInstrumentos().length];
        banda=Organizador();
        instru=OrganizadorInstrumentos();
        String[] laBanda=new String[numIntegrantes]; 
        
-       for (int j = 0; j <= numIntegrantes; j++){
+       for (int j = 0; j < numIntegrantes; j++){
            
-           laBanda[j]=banda[j]+instru[j];
-           System.out.println((laBanda[j]));
+           laBanda[j]=banda[j]+": "+instru[j];
+           System.out.println(laBanda[j]);
        }
-       
-       
-      
+       for (int j = 0; j < numIntegrantes; j++){
+           
+           laBanda[j]=banda[j]+" Afinando "+instru[j];
+           System.out.println(laBanda[j]);
+       }
+       for (int j = 0; j < numIntegrantes; j++){
+           
+           laBanda[j]=banda[j]+" Tocando "+instru[j];
+           System.out.println(laBanda[j]);
+       }
        
    }
    
-}   
-       
-   
-   
-   
-        
+}
 
-   
-   
-   
-    
+
         
 

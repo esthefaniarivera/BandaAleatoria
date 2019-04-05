@@ -13,11 +13,5 @@ public class Cuerdas {
     
     String tipo = "Guitarra";
     
-    
-    
-    // metodo afinar guitarra
-    public void AfinarGuitarra(){
-         System.out.println("Afinando guitarra");
-    
-   }    
+       
 }

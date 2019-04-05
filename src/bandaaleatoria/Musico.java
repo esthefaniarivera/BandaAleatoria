@@ -11,13 +11,13 @@ package bandaaleatoria;
  */
 public class Musico {
     String miembro[]= new String[20];
-    int n=1;
+    int n=-19;
     
 //arreglo de musico    
 public String[] LlenarMusico(){    
 for (int i=0;i<20;i++){
     miembro [i]="musico " + n;
-    n++;   
+    n++;
 }
         return miembro;
 }  

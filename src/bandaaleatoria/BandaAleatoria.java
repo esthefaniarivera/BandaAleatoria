@@ -20,7 +20,9 @@ public class BandaAleatoria {
     public static void main(String[] args) {
         
         OrganizadorBanda organizador= new OrganizadorBanda();
-        organizador.ArmarBanda();
+        organizador.GestionarBanda();
+
+        
         
         
         
