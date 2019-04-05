@@ -5,35 +5,31 @@ package bandaaleatoria;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/*import bandaaleatoria.Cuerdas;
+ /*import bandaaleatoria.Cuerdas;
 import bandaaleatoria.Percusion;
 import bandaaleatoria.Viento;
 import bandaaleatoria.Voz;*/
-
-
-
-
 /**
  *
  * @author estudiantes
  */
 public class Instrumento {
+
     //Creamos Los objetos de cada instrumento.
     Cuerdas guitarra = new Cuerdas();
     Viento trompeta = new Viento();
     Voz canto = new Voz();
     Percusion tambor = new Percusion();
-   
+
     //Llenar array de instrumentos.
-    public String[] LlenarInstrumento(){
+    public String[] LlenarInstrumento() {
         String[] instrumento = new String[4];
-        instrumento[0] = guitarra.tipo ;   
-        instrumento[1] = trompeta.tipo ;
-        instrumento[2] = canto.tipo ;
-        instrumento[3] = tambor.tipo ;
-        
+        instrumento[0] = guitarra.tipo;
+        instrumento[1] = trompeta.tipo;
+        instrumento[2] = canto.tipo;
+        instrumento[3] = tambor.tipo;
+
         return instrumento;
     }
-    
-    
+
 }

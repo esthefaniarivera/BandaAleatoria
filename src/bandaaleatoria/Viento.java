@@ -10,8 +10,7 @@ package bandaaleatoria;
  * @author estudiantes
  */
 public class Viento {
-    
-    
-    String tipo= "Trompeta";
-        
+
+    String tipo = "Trompeta";
+
 }

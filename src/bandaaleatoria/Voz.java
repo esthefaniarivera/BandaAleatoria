@@ -10,9 +10,7 @@ package bandaaleatoria;
  * @author estudiantes
  */
 public class Voz {
-    
-    
-    String tipo= "Voz";
-      
-    
+
+    String tipo = "Voz";
+
 }

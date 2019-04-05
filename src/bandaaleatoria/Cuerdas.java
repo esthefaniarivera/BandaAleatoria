@@ -10,8 +10,7 @@ package bandaaleatoria;
  * @author estudiantes
  */
 public class Cuerdas {
-    
+
     String tipo = "Guitarra";
-    
-       
+
 }

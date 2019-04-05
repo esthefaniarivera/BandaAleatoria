@@ -13,30 +13,15 @@ import java.util.Random;
  * @author ESTEFA
  */
 public class BandaAleatoria {
-    
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        OrganizadorBanda organizador= new OrganizadorBanda();
+
+        OrganizadorBanda organizador = new OrganizadorBanda();
         organizador.GestionarBanda();
 
-        
-        
-        
-        
-        
-        }
-        
-   }
-   
-        
-        
-        
-        
-      
-    
+    }
 
-   
-
+}

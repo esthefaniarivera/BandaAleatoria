@@ -5,16 +5,12 @@ package bandaaleatoria;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author estudiantes
  */
 public class Percusion {
-  
-    
-    String tipo= "Tambor";
-    
-      
-}
 
+    String tipo = "Tambor";
+
+}
