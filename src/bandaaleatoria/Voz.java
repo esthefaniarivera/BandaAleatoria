@@ -13,4 +13,4 @@ public class Voz {
 
     String tipo = "Voz";
 
-}
+} 
