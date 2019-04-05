@@ -1,0 +1,8 @@
+profe el codigo estaba en otro repositorio con las imagenes que le habiamos mostrado
+en un principio
+ pero al intentar descargarlo nos salian las librerias vacias 
+lo cual no tenia sentido, por ese motivo decidimos 
+crear un nuevo repositorio
+donde solamente la ultima version del codigo, si usted lo desea puedo demostrar
+con el 
+otro repositorio que yo habia colaborado pero pues no abria
